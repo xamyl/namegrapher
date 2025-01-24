@@ -23,4 +23,4 @@ Now, run
 
 (PPS If pip install isn't working try either `python -m pip install -r requirements.txt` OR `python3 -m pip install -r requirements.txt`)
 
-(PPPS If you can't install matplotlib first off, Hi ubuntu user! second off run `pip3 install matplotlib`)
+(PPPS If you are on Ubuntu and pip install -r requirements.txt returns an error run `pip3 install matplotlib` also you should probably `rm -rf requirements.txt`)
