@@ -20,4 +20,4 @@ Now, run
   python names.py
 ```
 (PS If python names.py isn't working try running `python3 names.py`)
-(PPS If pip install isn't working try either python -m pip install -r requirements.txt OR python3 -m pip install -r requirements.txt)
+(PPS If pip install isn't working try either `python -m pip install -r requirements.txt` OR `python3 -m pip install -r requirements.txt`)
