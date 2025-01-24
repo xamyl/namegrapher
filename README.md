@@ -19,8 +19,24 @@ Now, run
   pip install -r requirements.txt
   python names.py
 ```
-(PS If python names.py isn't working try running `python3 names.py`)
 
-(PPS If pip install isn't working try either `python -m pip install -r requirements.txt` OR `python3 -m pip install -r requirements.txt`)
 
-(PPPS If you are on Ubuntu and pip install -r requirements.txt returns an error run `pip3 install matplotlib` also you should probably `rm -rf requirements.txt`)
+
+
+
+# issues and fixes :D
+
+If python names.py isn't working try running `python3 names.py`
+
+If pip install isn't working try either `python -m pip install -r requirements.txt` OR `python3 -m pip install -r requirements.txt`[^1]
+
+If you are on Ubuntu and pip install -r requirements.txt returns an error run `pip3 install matplotlib`[^2]
+
+If wget returns "wget: command not found" run `sudo apt install wget` for linux or download it from [here](https://gnuwin32.sourceforge.net/packages/wget.htm) for windows
+
+If wget says that requirements.txt/names.py already exists, check your [file manager](https://letmegooglethat.com/?q=what+is+a+file+management+tool) for existing files called that.
+
+[^1] If that still returns an error, [make sure you have python installed](ispythoninstalled.vercel.app)
+
+[^2] You should probably run `rm -rf requirements.txt` to save space
+
