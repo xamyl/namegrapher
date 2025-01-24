@@ -36,7 +36,7 @@ If wget returns "wget: command not found" run `sudo apt install wget` for linux 
 
 If wget says that requirements.txt/names.py already exists, check your [file manager](https://letmegooglethat.com/?q=what+is+a+file+management+tool) for existing files called that.
 
-[^1] If that still returns an error, [make sure you have python installed](ispythoninstalled.vercel.app)
+[^1] If that still returns an error, [make sure you have python installed](https://ispythoninstalled.vercel.app)
 
 [^2] You should probably run `rm -rf requirements.txt` to save space
 
