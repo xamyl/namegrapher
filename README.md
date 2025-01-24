@@ -19,4 +19,5 @@ Now, run
   pip install -r requirements.txt
   python names.py
 ```
-(P.S If python names.py isn't working try running `python3 names.py`)
+(PS If python names.py isn't working try running `python3 names.py`)
+(PPS If pip install isn't working try either python -m pip install -r requirements.txt OR python3 -m pip install -r requirements.txt)
